@@ -1,6 +1,11 @@
-def unsafe?(speed)
+require 'pry'
 
-end
+def unsafe?(speed)
+  if speed > "60"
+    return "unsafe"
+  end
+binding.pry   
+
 
 
 
