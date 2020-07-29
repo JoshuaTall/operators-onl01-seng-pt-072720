@@ -17,6 +17,7 @@ describe "Operations" do
       answer = unsafe?(50)
       expect(answer).to eq(false)
     end
+
   end
 
   describe "#not_safe?" do
